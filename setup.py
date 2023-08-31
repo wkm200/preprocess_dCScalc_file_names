@@ -11,11 +11,11 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'preprocess_dcs_calc=preprocess_dCScalc_file_names:main',
+            'preprocess_dcs_calc=dcs_calc_pkg.preprocess_dCScalc_file_names:main',
         ],
     },
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Kyle Myers',
+    author_email='kylemyers33@gmail.com',
     description='A Python package for preprocessing dCS calc file names.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
