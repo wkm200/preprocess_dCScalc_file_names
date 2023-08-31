@@ -1,0 +1,9 @@
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool]
+name = "dcs_calc_preprocessing"
+version = "0.1"
+description = "A Python package for preprocessing dCS calc file names."
+authors = ["Your Name <your.email@example.com>"]
